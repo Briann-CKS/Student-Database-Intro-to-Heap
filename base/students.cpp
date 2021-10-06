@@ -60,4 +60,22 @@ void Students::setAddress(std::string address)
 	Student::address = address;
 }
 
-void Students::set	 
+void Students::setDOB(std::string dob)
+{
+	Students::dob = dob;
+}
+
+void Students::setGrad(std::string grad)
+{
+	Students::grad = grad;
+}
+
+void Students::setGPA (std::string GPA)
+{
+	Students::GPA = GPA;
+}
+
+void Students::setCreditHrs(std::string creditHrs)
+{
+	Students::creditHrs = creditHrs;
+} 	 
