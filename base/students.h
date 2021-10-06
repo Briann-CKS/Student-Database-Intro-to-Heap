@@ -4,9 +4,11 @@
 
 #include <iostream>
 #include <string>
+#include <fstream>
 #include "dates.h"
 #include "address.h"
 
+//start Student class def
 class Students
 {
 	private:
@@ -19,10 +21,25 @@ class Students
 		Dates grad;
 
 	public:
-		Students();
+		Student();
 		~Students();
-		
+		std::string getfName();
+		std::string getlName();
+		std::string getGPA();
+		std::string getCreditHrs();
+		std::string getAddress();
+		std::string getDOB();
+		std::string getGrad();
 
-};
+		void setfName(std::string fName);
+		void setlName(std::string lName);
+		void setGPA(std::string gpa);
+		void setCreditHrs(std::string creditHrs);
+		void setAddress(Address address);
+		void setDOB(Dates dob);
+		void setGrad(Dates grad);
+
+		
+}; //end Student class def
 
 #endif
