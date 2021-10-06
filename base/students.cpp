@@ -34,7 +34,6 @@ std::string Students::getDOB()
 std::string Students::getGrad()
 {
 	return grad;
-}
 
 std::string Students::getGPA()
 {
@@ -46,4 +45,4 @@ std::string Students::getCreditHrs()
 	return creditHrs;
 }
 
-
+void 
