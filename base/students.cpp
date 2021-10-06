@@ -45,4 +45,19 @@ std::string Students::getCreditHrs()
 	return creditHrs;
 }
 
-void 
+void Students::setfName(std::string fName)
+{
+	Students::fName = fName;
+}
+
+void Students::setlName(std::string lName)
+{
+	Students::lName = lName;
+}
+
+void Students::setAddress(std::string address)
+{
+	Student::address = address;
+}
+
+void Students::set	 

@@ -33,7 +33,7 @@ class Students
 
 		void setfName(std::string fName);
 		void setlName(std::string lName);
-		void setAddress(Address address);
+		void setAddress(std::string address);
 		void setDOB(Dates dob);
 		void setGrad(Dates grad);
 		void setGPA(std::string gpa);
