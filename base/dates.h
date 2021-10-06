@@ -1,4 +1,4 @@
-// date.h
+// dates.h
 #ifndef DATES_H_EXISTS
 #define DATES_H_EXISTS
 
