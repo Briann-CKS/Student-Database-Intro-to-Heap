@@ -57,7 +57,7 @@ void Students::setlName(std::string lName)
 
 void Students::setAddress(std::string address)
 {
-	Student::address = address;
+	Student::Address->address = address;
 }
 
 void Students::setDOB(std::string dob)

@@ -14,31 +14,36 @@ class Students
 	private:
 		std::string fName;
 		std::string lName;
-		std::string address;
-		std::string dob;
-		std::string grad;
+		Address* address;
+		Dates* dob;
+		Dates* grad;
 		std::string gpa;
 		std::string creditHrs;
 
 	public:
-		Student();
+		Students();
+		Students(std::string str);
 		~Students();
 		std::string getfName();
 		std::string getlName();
-		std::string getAddress();
-		std::string getDOB();
-		std::string getGrad();
+		Address getAddress();
+		Dates getDOB();
+		Dates getGrad();
 		std::string getGPA();
 		std::string getCreditHrs();
 
 		void setfName(std::string fName);
 		void setlName(std::string lName);
-		void setAddress(std::string address);
-		void setDOB(std::string dob);
-		void setGrad(std::string grad);
+		void setAddress(Address* address);
+		void setDOB(Dates* dob);
+		void setGrad(Dates* grad);
 		void setGPA(std::string gpa);
 		void setCreditHrs(std::string creditHrs);
 		
+		void setLine (std::string line);
+		void printFull();
+		void printNames();
+
 }; //end Student class def
 
 #endif
