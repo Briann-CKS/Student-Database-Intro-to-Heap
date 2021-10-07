@@ -14,11 +14,11 @@ class Students
 	private:
 		std::string fName;
 		std::string lName;
+		std::string address;
+		std::string dob;
+		std::string grad;
 		std::string gpa;
 		std::string creditHrs;
-		Address address;
-		Dates dob;
-		Dates grad;
 
 	public:
 		Student();
@@ -34,8 +34,8 @@ class Students
 		void setfName(std::string fName);
 		void setlName(std::string lName);
 		void setAddress(std::string address);
-		void setDOB(Dates dob);
-		void setGrad(Dates grad);
+		void setDOB(std::string dob);
+		void setGrad(std::string grad);
 		void setGPA(std::string gpa);
 		void setCreditHrs(std::string creditHrs);
 		

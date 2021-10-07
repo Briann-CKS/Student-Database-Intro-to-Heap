@@ -70,9 +70,9 @@ void Students::setGrad(std::string grad)
 	Students::grad = grad;
 }
 
-void Students::setGPA (std::string GPA)
+void Students::setGPA (std::string gpa)
 {
-	Students::GPA = GPA;
+	Students::gpa = gpa;
 }
 
 void Students::setCreditHrs(std::string creditHrs)
