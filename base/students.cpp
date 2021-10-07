@@ -2,10 +2,59 @@
 
 #include <iostream>
 #include <string>
+#include <sstream>
 #include "address.h"
 #include "dates.h"
 
 Students::Students(){
+}
+
+Students::Students(std::string str)
+{
+	std::stringstream currentLine;	
+	Students::address = new Address();
+	Students::dob = new Dates();
+	Students::grad = new Dates();
+
+	std::string add1;
+	std::string add2;
+	std::string addCity;
+	std::string addState;
+	std::string addZip;
+	std::string DOB_month;
+	std::string DOB_day;
+	std::string DOB_year;
+	std::string grad_month;
+	std::string grad_day;
+	std::string grad_year;
+
+	currentLine.clear();
+	currentLine.str("");
+	currentLine.str(str);	
+
+	getline(currentLine, Students::fName, ',');
+	getline(currentLine, Students::lName, ',');
+	getline(currentLine, add1, ',');
+	getline(currentLine, add2, ',');
+	getline(currentLine, addCity, ',');
+	getline(currentLine, addState, ',');
+	getline(currentLine, addZip, ',');
+	getline(currentLine, DOB_month, ',');
+	getline(currentLine, DOB_day, ',');
+	getline(currentLine, DOB_year, ',');
+	getline(currentLine, grad_month, ',');
+	getline(currentLine, grad_day, ',');
+	getline(currentLine, grad_year, ',');
+	getline(currentLine, Students::GPA, ',');
+	getline(currentLine, Students::creditHrs);
+
+	Students::address -> setLine1(add1);
+	Students::address -> setLine2(add2);
+	Students::address -> setCity(addCity);
+	Students::address -> setState(addState);
+	Students::address -> setZip(addZip);
+	Students::address -> setAdd
+
 }
 
 Students::~Students(){
