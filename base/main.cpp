@@ -24,8 +24,9 @@ int main ()
 	inFile.open ("students.dat");
 	if (inFile.is_open())
 	{
-		while (getline(inFile, fileLine))
+		for(counter = 0; counter < 50; counter++)
 		{
+			(getline(inFile, fileLine))
 			ss.clear();
 			ss.str("");
 			ss.str(fileLine);
@@ -34,10 +35,8 @@ int main ()
 				converter.clear();
 				converter.str("");					
 				converter.str(token);
-				converter>> str;
-				
+				converter>> str;	
 			}
-			counter++;
 		}
 
 

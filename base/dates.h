@@ -9,20 +9,20 @@
 class Dates
 {
 	private:
-		int day;
-		int month;
-		int year;
+		std::string day;
+		std::string month;
+		std::string year;
 		std::string date;
 
 	public:
 		Dates();
 		~Dates();
-		int getDay();
-		int getMonth();
-		int getYear();
-		void setDay(int day);
-		void setMonth(int month);
-		void setYear(int year);
+		std::string getDay();
+		std::string getMonth();
+		std::string getYear();
+		void setDay(std::string day);
+		void setMonth(std::string month);
+		void setYear(std::string year);
 		std::string getDate();
 		void setDate(std::string date);
 }; // end Dates class def

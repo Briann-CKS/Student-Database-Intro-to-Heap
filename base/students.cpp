@@ -6,7 +6,15 @@
 #include "address.h"
 #include "dates.h"
 
-Students::Students(){
+Students::Students()
+{
+	Students::fName = "";
+	Students::lName = "";
+	Students::address = new Address();
+	Students::dob = new Dates();
+	Students::grad = new Dates();
+	Students::gpa = "0";
+	Students::creditHrs = "0";
 }
 
 Students::Students(std::string str)
@@ -53,11 +61,19 @@ Students::Students(std::string str)
 	Students::address -> setCity(addCity);
 	Students::address -> setState(addState);
 	Students::address -> setZip(addZip);
-	Students::address -> setAdd
+	Students::dob -> setMonth(DOB_month);
+	Students::dob -> setDay(DOB_day);
+	Students::dob -> setYear(DOB_year);
+	Students::grad -> setMonth(grad_month);
+	Students::grad -> setDay(grad_day);
+	Students::grad -> setYear(grad_year);
 
 }
 
 Students::~Students(){
+	delete address;
+	delete dob;
+	delete grad;
 }
 
 std::string Students::getfName()
@@ -70,19 +86,20 @@ std::string Students::getlName()
 	return lName;
 }
 
-std::string Students::getAddress()
+Address Students::getAddress()
 {
-	return address;
+	return *Students::address;
 }
 
-std::string Students::getDOB()
+Dates Students::getDOB()
 {
-	return dob;
+	return *Students::dob;
 }
 
-std::string Students::getGrad()
+Dates Students::getGrad()
 {
 	return grad;
+}
 
 std::string Students::getGPA()
 {
@@ -104,17 +121,17 @@ void Students::setlName(std::string lName)
 	Students::lName = lName;
 }
 
-void Students::setAddress(std::string address)
+void Students::setAddress(Address* address)
 {
-	Student::Address->address = address;
+	Student::address = address;
 }
 
-void Students::setDOB(std::string dob)
+void Students::setDOB(Dates* dob)
 {
 	Students::dob = dob;
 }
 
-void Students::setGrad(std::string grad)
+void Students::setGrad(Dates* grad)
 {
 	Students::grad = grad;
 }

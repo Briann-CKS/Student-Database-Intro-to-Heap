@@ -8,32 +8,32 @@ Dates::Dates(){
 Dates::~Dates(){
 }
 
-int Dates::getDay()
+std::string Dates::getDay()
 {
 	return day;
 }
 
-int Dates::getMonth()
+std::string Dates::getMonth()
 {
 	return month;
 }
 
-int Dates::getYear()
+std::string Dates::getYear()
 {
 	return year;
 }
 
-void Dates::setDay(int day)
+void Dates::setDay(std::string day)
 {
 	Dates::day = day;
 }
 
-void Dates::setMonth(int month)
+void Dates::setMonth(std::string month)
 {
 	Dates::month = month;
 }
 
-void Dates::setYear(int year)
+void Dates::setYear(std::string year)
 {
 	Dates::year = year;
 }
