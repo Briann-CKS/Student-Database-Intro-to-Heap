@@ -9,7 +9,9 @@ int main ()
 {
 	int counter = 0;
 	std::ifstream inFile;
-	std::ofstream outFile;
+	std::ofstream fullFile;
+	std::ofstream shortFile;
+	std::ofstream alphaFile;
 	std::string fileLine;	
 	std::string text;
 	std::string token;
@@ -26,11 +28,27 @@ int main ()
 	{
 		for(counter = 0; counter < 50; counter++)
 		{
-			(getline(inFile, fileLine))
+			getline(inFile, fileLine);
+			student[counter].set(fileLine);
+		}
+
+		for(counter=0; counter<50; counter++)
+		{
+			fullFile.open
+
+
+
+
+
 			ss.clear();
 			ss.str("");
 			ss.str(fileLine);
-			while(getline(ss, token, ','))
+			
+
+
+
+
+			getline(ss, token, ',')
 			{
 				converter.clear();
 				converter.str("");					
