@@ -41,22 +41,22 @@ Students::Students(std::string line)
 	currentLine.str("");
 	currentLine.str(line);	
 
-	getline(currentLine, Students::fName, ',');
 	getline(currentLine, Students::lName, ',');
+	getline(currentLine, Students::fName, ',');
 	getline(currentLine, add1, ',');
 	getline(currentLine, add2, ',');
 	getline(currentLine, addCity, ',');
 	getline(currentLine, addState, ',');
 	getline(currentLine, addZip, ',');
-	getline(currentLine, DOB_month, ',');
-	getline(currentLine, DOB_day, ',');
+	getline(currentLine, DOB_month, '/');
+	getline(currentLine, DOB_day, '/');
 	getline(currentLine, DOB_year, ',');
-	getline(currentLine, grad_month, ',');
-	getline(currentLine, grad_day, ',');
+	getline(currentLine, grad_month, '/');
+	getline(currentLine, grad_day, '/');
 	getline(currentLine, grad_year, ',');
 	getline(currentLine, Students::gpa, ',');
 	getline(currentLine, Students::creditHrs);
-
+	
 	Students::address -> setLine1(add1);
 	Students::address -> setLine2(add2);
 	Students::address -> setCity(addCity);
@@ -69,9 +69,9 @@ Students::Students(std::string line)
 	Students::grad -> setDay(grad_day);
 	Students::grad -> setYear(grad_year);
 
-	Students::address -> setAdd();
-	Students::dob -> setDate();
-	Students::grad -> setDate();
+	Students::setFullAddress(address);
+        Students::setFullDOB(dob);
+        Students::setFullGrad(grad);
 }
 
 Students::~Students(){
@@ -115,6 +115,21 @@ std::string Students::getCreditHrs()
 	return creditHrs;
 }
 
+std::string Students::getFullAddress()
+{
+	return FullAddress;
+}
+
+std::string Students::getFullDOB()
+{
+        return FullDOB;
+}
+
+std::string Students::getFullGrad()
+{
+        return FullGrad;
+}
+
 void Students::setfName(std::string fName)
 {
 	Students::fName = fName;
@@ -153,10 +168,6 @@ void Students::setCreditHrs(std::string creditHrs)
 void Students::setLine(std::string line)
 {
 	std::stringstream currentLine;
-        Students::address = new Address();
-        Students::dob = new Dates();
-        Students::grad = new Dates();
-
         std::string add1;
         std::string add2;
         std::string addCity;
@@ -173,18 +184,18 @@ void Students::setLine(std::string line)
         currentLine.str("");
         currentLine.str(line);
 
-        getline(currentLine, Students::fName, ',');
         getline(currentLine, Students::lName, ',');
+        getline(currentLine, Students::fName, ',');
         getline(currentLine, add1, ',');
         getline(currentLine, add2, ',');
         getline(currentLine, addCity, ',');
         getline(currentLine, addState, ',');
         getline(currentLine, addZip, ',');
-        getline(currentLine, DOB_month, ',');
-        getline(currentLine, DOB_day, ',');
+        getline(currentLine, DOB_month, '/');
+        getline(currentLine, DOB_day, '/');
         getline(currentLine, DOB_year, ',');
-        getline(currentLine, grad_month, ',');
-        getline(currentLine, grad_day, ',');
+        getline(currentLine, grad_month, '/');
+        getline(currentLine, grad_day, '/');
         getline(currentLine, grad_year, ',');
         getline(currentLine, Students::gpa, ',');
         getline(currentLine, Students::creditHrs);
@@ -200,8 +211,23 @@ void Students::setLine(std::string line)
         Students::grad -> setMonth(grad_month);
         Students::grad -> setDay(grad_day);
         Students::grad -> setYear(grad_year);
+	
+	Students::setFullAddress(address);
+	Students::setFullDOB(dob);
+	Students::setFullGrad(grad);
+}
 
-	Students::address -> setAdd();
-        Students::dob -> setDate();
-        Students::grad -> setDate();
-}	 	 
+void Students::setFullAddress(Address* address)
+{
+	Students::FullAddress = address -> getLine1() + ", " + address -> getLine2() + ", " + address -> getCity() + ", " + address -> getState() + ", " + address -> getZip();
+}
+
+void Students::setFullDOB (Dates* date)
+{
+	Students::FullDOB = date -> getMonth() + "/" + date -> getDay() + "/" + date -> getYear();
+}
+
+void Students::setFullGrad(Dates* date)
+{
+	Students::FullGrad = date -> getMonth() + "/" + date -> getDay() + "/" + date -> getYear();
+}	 

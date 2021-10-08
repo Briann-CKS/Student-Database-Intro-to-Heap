@@ -1,0 +1,450 @@
+Last Name: Florence
+First Name: Forrest
+Address: 1843 Glenview Drive, , Corpus Christi, TX, 78401
+Birthday: 10/12/1992
+Graduation: 5/14/2012
+GPA: 3.215
+Credit Hours: 127
+
+
+Last Name: Casey
+First Name: Roberta
+Address: 3668 Thunder Road, , Palo Alto, CA, 94306
+Birthday: 2/13/1983
+Graduation: 5/14/2014
+GPA: 2.978
+Credit Hours: 95
+
+
+Last Name: Koch
+First Name: Sandra
+Address: 2707 Waterview Lane, Apt 302, Las Vegas, NM, 87701
+Birthday: 6/6/1972
+Graduation: 12/14/2015
+GPA: 2.546
+Credit Hours: 69
+
+
+Last Name: Dover
+First Name: Darrel
+Address: 845 Dola Mine Road, , Wendell, NC, 27591
+Birthday: 3/31/1968
+Graduation: 5/14/2012
+GPA: 3.958
+Credit Hours: 75
+
+
+Last Name: Turner
+First Name: Doris
+Address: 4489 Tully Street, Apt B, Detroit, MI, 48219
+Birthday: 5/21/1988
+Graduation: 5/14/2014
+GPA: 2.127
+Credit Hours: 187
+
+
+Last Name: Hernandez
+First Name: Juan
+Address: 2656 Creekside Lane, , Goleta, CA, 93117
+Birthday: 7/21/1979
+Graduation: 12/14/2015
+GPA: 1.598
+Credit Hours: 156
+
+
+Last Name: Moon
+First Name: Sandy
+Address: 1125 Joyce Street, , Mobile, AL, 36693
+Birthday: 12/28/1977
+Graduation: 5/14/2012
+GPA: 3.995
+Credit Hours: 124
+
+
+Last Name: Reid
+First Name: Andre
+Address: 1225 Gnatty Creek Road, , Westbury, NY, 11590
+Birthday: 12/19/1986
+Graduation: 5/14/2014
+GPA: 2.985
+Credit Hours: 112
+
+
+Last Name: Cracraft
+First Name: Tara
+Address: 3479 Austin Avenue, , Brunswick, GA, 31520
+Birthday: 2/4/1973
+Graduation: 12/14/2015
+GPA: 3.256
+Credit Hours: 162
+
+
+Last Name: Valadez
+First Name: Vincent
+Address: 1740 Parkview Drive, , Sugar Land, TX, 77478
+Birthday: 9/23/1975
+Graduation: 5/14/2012
+GPA: 3.127
+Credit Hours: 106
+
+
+Last Name: Howard
+First Name: William
+Address: 816 Wayside Lane, , Hayward, CA, 94545
+Birthday: 4/9/1971
+Graduation: 5/14/2014
+GPA: 3.568
+Credit Hours: 95
+
+
+Last Name: Mills
+First Name: Gary
+Address: 2888 Rowes Lane, , Irvington, KY, 40146
+Birthday: 4/22/1990
+Graduation: 12/14/2015
+GPA: 3.759
+Credit Hours: 127
+
+
+Last Name: Lett
+First Name: Victoria
+Address: 4250 Pringle Drive, , Chicago, IL, 60606
+Birthday: 8/13/1987
+Graduation: 5/14/2012
+GPA: 3.862
+Credit Hours: 95
+
+
+Last Name: Brice
+First Name: William
+Address: 4332 Larry Street, Apt 456, New Berlin, WI, 53151
+Birthday: 1/11/1974
+Graduation: 5/14/2014
+GPA: 3.215
+Credit Hours: 69
+
+
+Last Name: Hutchison
+First Name: Craig
+Address: 3704 Green Street, , Nashville, TN, 37211
+Birthday: 9/27/1969
+Graduation: 12/14/2015
+GPA: 2.978
+Credit Hours: 75
+
+
+Last Name: Taylor
+First Name: Danielle
+Address: 4900 Hudson Street, , Haledon, NJ, 7508
+Birthday: 7/17/1983
+Graduation: 5/14/2012
+GPA: 2.546
+Credit Hours: 162
+
+
+Last Name: Gingerich
+First Name: Ermelinda
+Address: 3834 Milford Street, Apt F, Sunapee, NH, 3782
+Birthday: 12/17/1973
+Graduation: 5/14/2014
+GPA: 3.958
+Credit Hours: 106
+
+
+Last Name: Moody
+First Name: Derek
+Address: 264 Tetrick Road, , Bowling Green, FL, 33834
+Birthday: 10/23/1980
+Graduation: 12/14/2015
+GPA: 2.127
+Credit Hours: 95
+
+
+Last Name: Howell
+First Name: Sonja
+Address: 1093 Olen Thomas Drive, P.O. Box 552, Wichita Falls, TX, 76301
+Birthday: 9/18/1984
+Graduation: 5/14/2012
+GPA: 1.598
+Credit Hours: 124
+
+
+Last Name: Miser
+First Name: Michael
+Address: 1532 South Street, , Midland, TX, 79701
+Birthday: 10/25/1967
+Graduation: 5/14/2014
+GPA: 3.995
+Credit Hours: 75
+
+
+Last Name: Davenport
+First Name: Robin
+Address: 4174 Columbia Mine Road, , Wheeling, WV, 26003
+Birthday: 3/9/1971
+Graduation: 12/14/2015
+GPA: 2.985
+Credit Hours: 187
+
+
+Last Name: Langley
+First Name: Joycelyn
+Address: 1254 Woodland Drive, , Omaha, NE, 68114
+Birthday: 2/8/1979
+Graduation: 5/14/2012
+GPA: 3.256
+Credit Hours: 156
+
+
+Last Name: Bryant
+First Name: Ann
+Address: 1334 Progress Way, , Minneapolis, MN, 55401
+Birthday: 2/28/1977
+Graduation: 5/14/2014
+GPA: 3.127
+Credit Hours: 124
+
+
+Last Name: Barnett
+First Name: Patrick
+Address: 2432 Warner Street, , Casper, WY, 82601
+Birthday: 7/28/1977
+Graduation: 12/14/2015
+GPA: 3.568
+Credit Hours: 95
+
+
+Last Name: Knepp
+First Name: Christopher
+Address: 1012 Oakmound Road, , Chicago, IL, 60623
+Birthday: 2/21/1968
+Graduation: 5/14/2012
+GPA: 3.759
+Credit Hours: 127
+
+
+Last Name: Canfield
+First Name: Reginald
+Address: 4212 Coal Street, , Somerset, PA, 15501
+Birthday: 3/21/1988
+Graduation: 5/14/2014
+GPA: 3.862
+Credit Hours: 95
+
+
+Last Name: Lippert
+First Name: Margarita
+Address: 781 Hillcrest Lane, , Fullerton, CA, 93632
+Birthday: 6/8/1978
+Graduation: 12/14/2015
+GPA: 1.598
+Credit Hours: 69
+
+
+Last Name: Kist
+First Name: Barbara
+Address: 2103 Mapleview Drive, , Jackson, TN, 38301
+Birthday: 11/3/1980
+Graduation: 5/14/2012
+GPA: 3.995
+Credit Hours: 75
+
+
+Last Name: Waters
+First Name: Ladonna
+Address: 68 Oak Ridge Drive, , Mexico, MO, 65265
+Birthday: 4/4/1969
+Graduation: 5/14/2014
+GPA: 2.985
+Credit Hours: 187
+
+
+Last Name: Shepherd
+First Name: Julio
+Address: 2446 Camden Street, , Reno, NV, 89502
+Birthday: 6/23/1978
+Graduation: 12/14/2015
+GPA: 3.256
+Credit Hours: 156
+
+
+Last Name: Hernandez
+First Name: Antonio
+Address: 3232 Fairmont Avenue, , Kansas City, MO, 64106
+Birthday: 3/12/1980
+Graduation: 5/14/2012
+GPA: 3.127
+Credit Hours: 124
+
+
+Last Name: Ridge
+First Name: Sharon
+Address: 3964 Stoney Lane, P.O. Box 549, Dallas, TX, 75247
+Birthday: 1/8/1991
+Graduation: 5/14/2014
+GPA: 3.568
+Credit Hours: 112
+
+
+Last Name: Lambert
+First Name: Michael
+Address: 2174 Kyle Street, , Venango, NE, 69168
+Birthday: 10/6/1982
+Graduation: 12/14/2015
+GPA: 3.759
+Credit Hours: 162
+
+
+Last Name: Tapp
+First Name: Michael
+Address: 4569 Shobe Lane, , Greeley, CO, 80634
+Birthday: 3/12/1972
+Graduation: 5/14/2012
+GPA: 3.862
+Credit Hours: 106
+
+
+Last Name: Lewis
+First Name: Peggy
+Address: 1601 Hall Valley Drive, , Wheeling, WV, 26003
+Birthday: 5/1/1981
+Graduation: 5/14/2014
+GPA: 1.598
+Credit Hours: 127
+
+
+Last Name: Smith
+First Name: Darren
+Address: 2836 Briarwood Road, , Springfield, MO, 65804
+Birthday: 5/26/1968
+Graduation: 12/14/2015
+GPA: 3.995
+Credit Hours: 95
+
+
+Last Name: Adair
+First Name: Jeffrey
+Address: 4478 Hillside Street, , Phoenix, AZ, 85016
+Birthday: 7/3/1986
+Graduation: 5/14/2012
+GPA: 2.985
+Credit Hours: 69
+
+
+Last Name: Greene
+First Name: Eric
+Address: 569 Pine Garden Lane, , Norcross, GA, 30091
+Birthday: 8/10/1972
+Graduation: 5/14/2014
+GPA: 3.256
+Credit Hours: 75
+
+
+Last Name: Gilham
+First Name: Mike
+Address: 3543 Ventura Drive, Apt H, Marina, CA, 93933
+Birthday: 9/27/1980
+Graduation: 12/14/2015
+GPA: 2.546
+Credit Hours: 162
+
+
+Last Name: Dorsey
+First Name: Tammy
+Address: 2111 Liberty Avenue, , Los Angeles, CA, 90017
+Birthday: 10/19/1969
+Graduation: 5/14/2012
+GPA: 3.958
+Credit Hours: 106
+
+
+Last Name: Lewis
+First Name: Robert
+Address: 2253 Brannon Avenue, , Jacksonville, FL, 32216
+Birthday: 8/6/1979
+Graduation: 5/14/2014
+GPA: 2.127
+Credit Hours: 95
+
+
+Last Name: Petitt
+First Name: Craig
+Address: 2397 My Drive, , Garden City, NY, 11530
+Birthday: 6/15/1971
+Graduation: 12/14/2015
+GPA: 1.598
+Credit Hours: 124
+
+
+Last Name: Quarles
+First Name: Helen
+Address: 98 Mount Tabor, , New York, NY, 10013
+Birthday: 9/5/1980
+Graduation: 5/14/2012
+GPA: 3.995
+Credit Hours: 75
+
+
+Last Name: Frey
+First Name: Catherine
+Address: 1504 Shobe Lane, , Loveland, CO, 80537
+Birthday: 4/5/1981
+Graduation: 5/14/2014
+GPA: 2.985
+Credit Hours: 69
+
+
+Last Name: Ortiz
+First Name: Sophie
+Address: 977 Seltice Way, Apt 56, Boise, ID, 83704
+Birthday: 8/6/1976
+Graduation: 12/14/2015
+GPA: 3.256
+Credit Hours: 75
+
+
+Last Name: McAbee
+First Name: Michael
+Address: 959 Hall Street, , Las Vegas, NV, 89119
+Birthday: 3/7/1991
+Graduation: 5/14/2012
+GPA: 3.127
+Credit Hours: 187
+
+
+Last Name: Herrera
+First Name: David
+Address: 3084 Hart Country Lane, , Norcross, GA, 30093
+Birthday: 6/19/1981
+Graduation: 5/14/2014
+GPA: 2.127
+Credit Hours: 156
+
+
+Last Name: Parry
+First Name: Paul
+Address: 3425 Valley Street, , Vineland, NJ, 8360
+Birthday: 12/17/1973
+Graduation: 12/14/2015
+GPA: 1.598
+Credit Hours: 124
+
+
+Last Name: Carter
+First Name: Lisa
+Address: 1809 Oak Ridge Drive, , Rolla, MO, 65401
+Birthday: 2/25/1989
+Graduation: 5/14/2012
+GPA: 3.995
+Credit Hours: 112
+
+
+Last Name: Barbee
+First Name: James
+Address: 4756 Mapleview Drive, , Ripley, TN, 38063
+Birthday: 12/27/1983
+Graduation: 5/14/2014
+GPA: 2.985
+Credit Hours: 162
+
+

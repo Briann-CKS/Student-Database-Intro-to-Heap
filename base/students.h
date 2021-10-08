@@ -19,6 +19,9 @@ class Students
 		Dates* grad;
 		std::string gpa;
 		std::string creditHrs;
+		std::string FullAddress;
+		std::string FullDOB;
+		std::string FullGrad;
 
 	public:
 		Students();
@@ -31,6 +34,9 @@ class Students
 		Dates getGrad();
 		std::string getGPA();
 		std::string getCreditHrs();
+		std::string getFullAddress();
+		std::string getFullDOB();
+		std::string getFullGrad();
 
 		void setfName(std::string fName);
 		void setlName(std::string lName);
@@ -41,6 +47,9 @@ class Students
 		void setCreditHrs(std::string creditHrs);
 		
 		void setLine (std::string line);
+		void setFullAddress(Address* address);
+		void setFullDOB(Dates* date);
+		void setFullGrad(Dates*date);
 
 }; //end Student class def
 

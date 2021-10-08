@@ -14,10 +14,14 @@ dates.o: dates.h dates.cpp
 	g++ -c dates.cpp
 
 clean:
-	rm -f HeapStudents *.o
+	rm -f HeapStudents 
+	rm -f *.o
 
 run: HeapStudents
 	./HeapStudents
 
 valgrind: HeapStudents
 	valgrind --leak-check=full ./HeapStudents
+
+debug: HeapStudents
+	gdb HeapStudents
