@@ -1,6 +1,8 @@
+// address.h
 #ifndef ADDRESS_H_EXISTS
 #define ADDRESS_H_EXISTS
 
+// Include all the libraries needed
 #include <iostream>
 #include <string>
 
@@ -8,6 +10,7 @@
 class Address
 {
 	private:
+		// String attributes for each component of the address
 		std::string line1;
 		std::string line2;
 		std::string city;
@@ -15,14 +18,17 @@ class Address
 		std::string zip;
 
 	public:
-		Address();
-		~Address();
+		Address(); // Constructor
+		~Address(); // Destructor
+
+		// Getter methods
 		std::string getLine1();
 		std::string getLine2();
 		std::string getCity();
 		std::string getState();
 		std::string getZip();
 
+		// Setter methods
 		void setLine1(std::string line1);
 		void setLine2(std::string line2);
 		void setCity(std::string city);
