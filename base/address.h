@@ -23,14 +23,12 @@ class Address
 		std::string getCity();
 		std::string getState();
 		std::string getZip();
-		std::string getAdd();
 
 		void setLine1(std::string line1);
 		void setLine2(std::string line2);
 		void setCity(std::string city);
 		void setState(std::string state);
 		void setZip(std::string zip);
-		void setAdd();
 		
 }; //end Address class def
 

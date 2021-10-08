@@ -12,7 +12,6 @@ class Dates
 		std::string day;
 		std::string month;
 		std::string year;
-		std::string date;
 
 	public:
 		Dates();
@@ -24,8 +23,6 @@ class Dates
 		void setMonth(std::string month);
 		void setYear(std::string year);
 
-		std::string getDate();
-		void setDate();
 }; // end Dates class def
 
 #endif

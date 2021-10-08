@@ -37,13 +37,3 @@ void Dates::setYear(std::string year)
 {
 	Dates::year = year;
 }
-
-std::string Dates::getDate()
-{
-	return date;
-}
-
-void Dates::setDate()
-{
-	Dates::date = month + "/" + day + "/" + year;
-}

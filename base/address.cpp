@@ -33,11 +33,6 @@ std::string Address::getZip()
 	return zip;
 }
 
-std::string Address::getAdd()
-{
-	return address;
-}
-
 void Address::setLine1(std::string line1)
 {
 	Address::line1 = line1;
@@ -63,7 +58,4 @@ void Address::setZip(std::string zip)
 	Address::zip = zip;
 }
 
-void Address::setAdd()
-{
-	Address::address = line1 + ", " + line2 + ", " + city + ", " + state + ", " + zip;
-} // end Address class def
+ // end Address class def
