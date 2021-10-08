@@ -41,8 +41,6 @@ class Students
 		void setCreditHrs(std::string creditHrs);
 		
 		void setLine (std::string line);
-		void printFull();
-		void printNames();
 
 }; //end Student class def
 

@@ -5,6 +5,7 @@
 #include <sstream>
 #include "address.h"
 #include "dates.h"
+#include "students.h"
 
 Students::Students()
 {
@@ -17,7 +18,7 @@ Students::Students()
 	Students::creditHrs = "0";
 }
 
-Students::Students(std::string str)
+Students::Students(std::string line)
 {
 	std::stringstream currentLine;	
 	Students::address = new Address();
@@ -38,7 +39,7 @@ Students::Students(std::string str)
 
 	currentLine.clear();
 	currentLine.str("");
-	currentLine.str(str);	
+	currentLine.str(line);	
 
 	getline(currentLine, Students::fName, ',');
 	getline(currentLine, Students::lName, ',');
@@ -53,7 +54,7 @@ Students::Students(std::string str)
 	getline(currentLine, grad_month, ',');
 	getline(currentLine, grad_day, ',');
 	getline(currentLine, grad_year, ',');
-	getline(currentLine, Students::GPA, ',');
+	getline(currentLine, Students::gpa, ',');
 	getline(currentLine, Students::creditHrs);
 
 	Students::address -> setLine1(add1);
@@ -68,6 +69,9 @@ Students::Students(std::string str)
 	Students::grad -> setDay(grad_day);
 	Students::grad -> setYear(grad_year);
 
+	Students::address -> setAdd();
+	Students::dob -> setDate();
+	Students::grad -> setDate();
 }
 
 Students::~Students(){
@@ -98,12 +102,12 @@ Dates Students::getDOB()
 
 Dates Students::getGrad()
 {
-	return grad;
+	return *Students::grad;
 }
 
 std::string Students::getGPA()
 {
-	return GPA;
+	return gpa;
 }
 
 std::string Students::getCreditHrs()
@@ -123,7 +127,7 @@ void Students::setlName(std::string lName)
 
 void Students::setAddress(Address* address)
 {
-	Student::address = address;
+	Students::address = address;
 }
 
 void Students::setDOB(Dates* dob)
@@ -144,4 +148,60 @@ void Students::setGPA (std::string gpa)
 void Students::setCreditHrs(std::string creditHrs)
 {
 	Students::creditHrs = creditHrs;
-} 	 
+}
+
+void Students::setLine(std::string line)
+{
+	std::stringstream currentLine;
+        Students::address = new Address();
+        Students::dob = new Dates();
+        Students::grad = new Dates();
+
+        std::string add1;
+        std::string add2;
+        std::string addCity;
+        std::string addState;
+        std::string addZip;
+        std::string DOB_month;
+        std::string DOB_day;
+        std::string DOB_year;
+        std::string grad_month;
+        std::string grad_day;
+        std::string grad_year;
+
+        currentLine.clear();
+        currentLine.str("");
+        currentLine.str(line);
+
+        getline(currentLine, Students::fName, ',');
+        getline(currentLine, Students::lName, ',');
+        getline(currentLine, add1, ',');
+        getline(currentLine, add2, ',');
+        getline(currentLine, addCity, ',');
+        getline(currentLine, addState, ',');
+        getline(currentLine, addZip, ',');
+        getline(currentLine, DOB_month, ',');
+        getline(currentLine, DOB_day, ',');
+        getline(currentLine, DOB_year, ',');
+        getline(currentLine, grad_month, ',');
+        getline(currentLine, grad_day, ',');
+        getline(currentLine, grad_year, ',');
+        getline(currentLine, Students::gpa, ',');
+        getline(currentLine, Students::creditHrs);
+
+        Students::address -> setLine1(add1);
+        Students::address -> setLine2(add2);
+        Students::address -> setCity(addCity);
+        Students::address -> setState(addState);
+        Students::address -> setZip(addZip);
+        Students::dob -> setMonth(DOB_month);
+        Students::dob -> setDay(DOB_day);
+        Students::dob -> setYear(DOB_year);
+        Students::grad -> setMonth(grad_month);
+        Students::grad -> setDay(grad_day);
+        Students::grad -> setYear(grad_year);
+
+	Students::address -> setAdd();
+        Students::dob -> setDate();
+        Students::grad -> setDate();
+}	 	 

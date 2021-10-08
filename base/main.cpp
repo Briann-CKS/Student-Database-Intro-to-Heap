@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <fstream>
+#include <sstream>
 #include "students.h"
 #include "address.h"
 #include "dates.h"
@@ -16,11 +17,9 @@ int main ()
 	std::string text;
 	std::string token;
 	std::string str;
-
-	std::stringstream ss;
 	std::stringstream converter;
 
-	Student* student = new Student[50];
+	Students* student = new Students[50];
 
 	//Open input file
 	inFile.open ("students.dat");
@@ -29,56 +28,79 @@ int main ()
 		for(counter = 0; counter < 50; counter++)
 		{
 			getline(inFile, fileLine);
-			student[counter].set(fileLine);
+			student[counter].setLine(fileLine);
 		}
 
-		for(counter=0; counter<50; counter++)
+		fullFile.open("fullReport.txt");
+		if (fullFile.is_open())
 		{
-			fullFile.open
-
-
-
-
-
-			ss.clear();
-			ss.str("");
-			ss.str(fileLine);
-			
-
-
-
-
-			getline(ss, token, ',')
+			for (counter = 0; counter<50; counter++)
 			{
-				converter.clear();
-				converter.str("");					
-				converter.str(token);
-				converter>> str;	
+				text = "Last Name: " + student[counter].getlName() + "\n";
+				text += "First Name: " + student[counter].getfName() + "\n";
+				text += "Address: " + student[counter].getAddress() + "\n";
+				text += "Birthday: " + student[counter].getDOB() + "\n";
+				text += "Graduation: " + student[counter].getGrad() + "\n";
+				text += "GPA: " + student[counter].getGPA() + "\n";
+				text += "Credit Hours: " + student[counter].getCreditHrs() + "\n\n\n";
+								
+				converter.clear();			
+				converter.str("");
+				converter.str(text);
+				fullFile << converter.str();
 			}
+			
+			
+			/*for (counter = 0; counter<50; counter++)
+			{
+				text = student[counter]			
+				
+				
+				fullFile << student[counter] << std::endl;
+			}*/
 		}
+		else
+		{
+			std::cout << "Unable to open fullReport.txt" << std::endl;
+	        }
 
+		/*shortFile.open("shortReport.txt");
+                if (shortFile.is_open())
+                {
+                        for (counter = 0; counter<50; counter++)
+                        {
+                                shortFile << student[counter].getfName() << " ";
+				shortFile << student[counter].getlName() << std::endl;
+                        }       
+                }       
+                else    
+                {
+                        std::cout << "Unable to open shortReport.txt" << std::endl;
+                } */      
 
-
-	}
+		/*alphaFile.open("alphaReport.txt");
+                if (alphaFile.is_open())
+                {
+                        for (counter = 0; counter<50; counter++)
+                        {
+                                alphaReport << student[counter] << std::endl;
+                        }       
+                }       
+                else    
+                {
+                        std::cout << "Unable to open file" << std::endl;
+                }*/   
+	}    
 	else
 	{
-		std::cout << "Unable to open file" << std::endl;
+		std::cout << "Unable to students.dat" << std::endl;
 	}
 
-	outFile.open("fullReport.txt");
-	if (outFile.is_open())
-	{
-		
+	fullFile.close();
+	//shortFile.close();
+	//alphaFile.close();
 
-
-	}
-	else 
-	{
-		std::cout << "Unable to open file" << std::endl;
-	}
-
-
-	delete[] students;
+	delete[] student;
 	return 0;
 
 }

@@ -63,7 +63,7 @@ void Address::setZip(std::string zip)
 	Address::zip = zip;
 }
 
-void Address::setAdd(std::string address)
+void Address::setAdd()
 {
-	Address::address = address;
+	Address::address = line1 + ", " + line2 + ", " + city + ", " + state + ", " + zip;
 } // end Address class def

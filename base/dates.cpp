@@ -43,7 +43,7 @@ std::string Dates::getDate()
 	return date;
 }
 
-void Dates::setDate(std::string date)
+void Dates::setDate()
 {
-	Dates::date = date;
+	Dates::date = month + "/" + day + "/" + year;
 }

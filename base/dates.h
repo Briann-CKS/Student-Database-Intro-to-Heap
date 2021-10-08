@@ -23,8 +23,9 @@ class Dates
 		void setDay(std::string day);
 		void setMonth(std::string month);
 		void setYear(std::string year);
+
 		std::string getDate();
-		void setDate(std::string date);
+		void setDate();
 }; // end Dates class def
 
 #endif

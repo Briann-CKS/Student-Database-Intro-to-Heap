@@ -30,7 +30,7 @@ class Address
 		void setCity(std::string city);
 		void setState(std::string state);
 		void setZip(std::string zip);
-		void setAdd(std::string address);
+		void setAdd();
 		
 }; //end Address class def
 
