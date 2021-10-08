@@ -29,9 +29,6 @@ class Students
 		~Students();
 		std::string getfName();
 		std::string getlName();
-		Address getAddress();
-		Dates getDOB();
-		Dates getGrad();
 		std::string getGPA();
 		std::string getCreditHrs();
 		std::string getFullAddress();
@@ -40,16 +37,13 @@ class Students
 
 		void setfName(std::string fName);
 		void setlName(std::string lName);
-		void setAddress(Address* address);
-		void setDOB(Dates* dob);
-		void setGrad(Dates* grad);
 		void setGPA(std::string gpa);
 		void setCreditHrs(std::string creditHrs);
 		
 		void setLine (std::string line);
 		void setFullAddress(Address* address);
 		void setFullDOB(Dates* date);
-		void setFullGrad(Dates*date);
+		void setFullGrad(Dates* date);
 
 }; //end Student class def
 

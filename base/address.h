@@ -13,7 +13,6 @@ class Address
 		std::string city;
 		std::string state;
 		std::string zip;
-		std::string address;
 
 	public:
 		Address();

@@ -90,21 +90,6 @@ std::string Students::getlName()
 	return lName;
 }
 
-Address Students::getAddress()
-{
-	return *Students::address;
-}
-
-Dates Students::getDOB()
-{
-	return *Students::dob;
-}
-
-Dates Students::getGrad()
-{
-	return *Students::grad;
-}
-
 std::string Students::getGPA()
 {
 	return gpa;
@@ -138,21 +123,6 @@ void Students::setfName(std::string fName)
 void Students::setlName(std::string lName)
 {
 	Students::lName = lName;
-}
-
-void Students::setAddress(Address* address)
-{
-	Students::address = address;
-}
-
-void Students::setDOB(Dates* dob)
-{
-	Students::dob = dob;
-}
-
-void Students::setGrad(Dates* grad)
-{
-	Students::grad = grad;
 }
 
 void Students::setGPA (std::string gpa)

@@ -16,6 +16,7 @@ dates.o: dates.h dates.cpp
 clean:
 	rm -f HeapStudents 
 	rm -f *.o
+	rm -f *.txt
 
 run: HeapStudents
 	./HeapStudents
