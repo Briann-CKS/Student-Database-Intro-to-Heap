@@ -74,7 +74,8 @@ Students::Students(std::string line)
         Students::setFullGrad(grad);
 }
 
-Students::~Students(){
+Students::~Students()
+{
 	delete address;
 	delete dob;
 	delete grad;
