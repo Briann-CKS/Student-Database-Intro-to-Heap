@@ -1,3 +1,3 @@
 ## Algorithm
-#Updated Black Belt
+# Updated Black Belt
 I have imporved this program by allowing users to select which file they would like the program to create. There are three versions of the report that I have created. The first one is the full report that contains a complete list of information of each student. The second one is a short report that contains only the last name and first name of each student. Finally, the alphabet report contains the full name of every student rearranged and sorted according to the alphabetical order. Besides, I also provided the users with an option 4 if they want to end the program and not create any additional files. I have also taken into consideration that the users might enter some integers that are not between 1 and 4, so the program will end when it reads some other integers.
