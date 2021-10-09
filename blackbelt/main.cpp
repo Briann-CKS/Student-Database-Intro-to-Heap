@@ -3,12 +3,13 @@
 #include <string>
 #include <fstream>
 #include <sstream>
+#include <vector>
 #include <string.h>
 #include "students.h"
 #include "address.h"
 #include "dates.h"
 
-void sortName (std::string strArr[]);
+void sortName (std::vector<string> str[]);
 
 int main ()
 {
@@ -80,10 +81,12 @@ int main ()
                         std::cout << "Unable to open shortReport.txt" << std::endl;
                 }      
 		
-		std::string strArray [50];
+		//std::string strArray [50];
+		std::vector<string> strArray[50];
 		for(int i = 0; i< 50; i++)
 		{
-			strArray[i] = student[i].getfName() + " " + student[i].getlName();
+			strArray.push_back(student[i].getfName() + " " + student[i].getlName());
+			//strArray[i] = student[i].getfName() + " " + student[i].getlName();
 		}
 		
 		sortName (strArray);
@@ -119,7 +122,8 @@ int main ()
 	return 0;
 }
 
-void sortName (std::string strArr[])
+//void sortName (std::string strArr[])
+void sortName (std::vector<string> str[])
 {
 	std::string temp;	
 	for (int i = 0; i < 50; i++)

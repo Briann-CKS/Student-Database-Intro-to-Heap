@@ -5,7 +5,6 @@
 // Include all the libraries and files needed
 #include <iostream>
 #include <string>
-#include <vector>
 #include <fstream>
 #include "dates.h"
 #include "address.h"
@@ -21,12 +20,9 @@ class Students
 		Dates* grad; // A Dates pointer to point to the data on heap
 		std::string gpa; // GPA
 		std::string creditHrs; // Credit Hours completed
-		//std::string FullAddress; // Full address string
-		//std::string FullDOB; // Full DOB string
-		//std::string FullGrad; // Full Graduation date string
-		std::vector<std::string> FullAddress;
-		std::vector<std::string> FullDOB;
-		std::vector<std::string> FullGrad
+		std::string FullAddress; // Full address string
+		std::string FullDOB; // Full DOB string
+		std::string FullGrad; // Full Graduation date string
 
 	public:
 		Students(); // Constructor
