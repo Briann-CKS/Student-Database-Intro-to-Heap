@@ -110,7 +110,8 @@ int main ()
 	{
 		std::cout << "Unable to students.dat" << std::endl;
 	}
-
+	
+	inFile.close();
 	fullFile.close();
 	shortFile.close();
 	alphaFile.close();
