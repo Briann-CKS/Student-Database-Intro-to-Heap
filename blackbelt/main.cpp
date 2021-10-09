@@ -131,30 +131,32 @@ int main ()
 			                {
 						std::cout << "Unable to alphaReport.txt" << std::endl;
                 			}  
-				}				
+				}	
+			
 				else
 				{
 					std::cout << "Thank you, and have a great day!" << std::endl;
 					keep_going = false;
 				} 
-			}   
+			} 
+  
 			else
 			{
 				std::cout << "Unable to students.dat" << std::endl;
 			}
-
 		}
+
 		else 
 		{
 			std::cout << "You did not select any of the options above!\n" << std::endl;
 			keep_going = false;
 		}
-	
+
 		inFile.close();
 	}
 
-		delete[] student;
-		return 0;
+	delete[] student;
+	return 0;
 }
 
 void sortName (std::string strArr[])
